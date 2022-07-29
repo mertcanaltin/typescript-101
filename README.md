@@ -45,8 +45,8 @@ console.log(sum(1,2))
 const api = {
     status: '200',
     data: {
-        name: 'OrnekApi',
-        description: 'bu Ornek2',
+        name: 'SampleApi',
+        description: 'the sample',
         version: '1.0.0'
     },
 };
@@ -62,7 +62,7 @@ interface apiType {
 
 function getApiData(api:apiType) {
     if (api.status == '200') {
-        return 'harika  ' + api.data.name + ' calısıyor !';
+        return 'good  ' + api.data.name + ' worked !';
     }
 }
 
